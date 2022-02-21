@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+body{
+    background: url(./img/157352-skazki_barda_bidla-garri_potter-korichnevyj_cvet-drevesina-liniya-3840x2160.jpg) no-repeat;
+    background-size: 100%;
+}
+#block{
+    position: relative;
+    width: 1300px;
+    height: 870px;
+    background: url(./img/060ddddecd25ebcd8a02d361e9b25043.jpg);
+    background-size: 100%;
+    margin: 70px auto;
+    text-align: center;
+}
+#text{
+    position: relative;
+    top: 60px;
+    width: 110px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: 'Henny Penny', cursive;
+}
+#vvod{
+    position: absolute;
+    background-color: rgb(104, 8, 8);
+    width: 200px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px;
+    right: 30px;
+    top: 50px;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Henny Penny', cursive;
+    font-size: 20px;
+}
+#vvod::placeholder{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.726);
+}
+#plot{
+    position: relative;
+    left: 290px;
+    top: 75px;
+    width: 730px;
+    height: 740px;
+}
+#div_djoistik{
+    width: 100%;
+}
+#djoistik{
+    position: relative;
+    bottom: 200px;
+    width: 300px;
+    height: 250px;
+}
+#djoistik button{
+    width: 80px;
+    height: 88px;
+    color: white;
+    border: none;
+    background-size: 100%;
+    margin: 0 auto;
+}
+#djoistik div{
+    height: 68px;
+}
+#start{
+    background: url(./img/Снимок_экрана__68_-removebg-preview.png)no-repeat;
+    background-position-y: 50%;
+}
+#top{
+    background: url(./img/383f58ee6bc6_4.png)no-repeat;
+}
+#buttom{
+    background: url(./img/383f58ee6bc6_3.png)no-repeat;
+}
+#left{
+    background: url(./img/383f58ee6bc6_2.png)no-repeat;
+}
+#right{
+    background: url(./img/383f58ee6bc6_1.png)no-repeat;
+}
+#plot:active #mini{
+    transform: scale(-1, 1)
+}
+#mini{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    transition: .2s;
+    background-size: 100%;
+}
+#img_1{
+    position: absolute;
+    left: -20px;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 30px;
+}
+#img_2{
+    position: absolute;
+    left: -20px;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 30px;
+}
+#mini img{
+    height: 30px;
+    width: 100px;
+}
